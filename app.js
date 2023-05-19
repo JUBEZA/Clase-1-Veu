@@ -1,17 +1,10 @@
+import { Persona } from "./Persona.js";
+
 const saludar = () => {
-    console.log("hola!")
+    console.log("Hola!")
 }
 
 saludar();
 
-class Persona {
-  constructor(nom, ape, edad, pais) {
-    this.nombre = nom;
-    this.apellido = ape;
-    this.edad = edad;
-    this.pais = pais;
-  }
-}
-
-const per1 = new Persona("Juan", "Beza", 30, "Chile")
+const  per1 = new Persona("Juan", "Bezanilla", 30, "BraChile")
 console.log(per1)
