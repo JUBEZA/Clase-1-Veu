@@ -1,17 +1,26 @@
 // createApp
 const {createApp} = Vue;
 
-import { Persona } from "./Persona.js";
+createApp({
+  data() {
+    return{
+      titulo: "Buena Loco 🌖"
 
-const saludar = () => {
-    console.log("Hola!")
-}
+    }
+  }
+}).mount("#app")
 
-saludar();
+// import { Persona } from "./Persona.js";
 
-const  per1 = new Persona("Juan", "Bezanilla", 30, "BraChile")
-console.log(per1)
+// const saludar = () => {
+//     console.log("Hola!")
+// }
 
-const nombre = "Juanito";
-const phrase = `hola ${nombre}`
-console.log(phrase)
+// saludar();
+
+// const  per1 = new Persona("Juan", "Bezanilla", 30, "BraChile")
+// console.log(per1)
+
+// const nombre = "Juanito";
+// const phrase = `hola ${nombre}`
+// console.log(phrase)
