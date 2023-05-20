@@ -1,3 +1,6 @@
+// createApp
+const {createApp} = Vue;
+
 import { Persona } from "./Persona.js";
 
 const saludar = () => {
