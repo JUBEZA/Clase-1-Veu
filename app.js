@@ -10,7 +10,7 @@ createApp({
       a: 20,
       b: 20,
       numero: 100,
-      mensaje: "la importancia de aprender Veu",
+      mensaje: "la importancia de aprender Veu en Brazil",
       div: `
       <h3>Una página de Juan</h3>
       <p>que va a ser buena</p>
